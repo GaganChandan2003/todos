@@ -1,0 +1,81 @@
+
+.inputtag
+{
+  width: 400px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  align-items: center;
+}
+.inputtag+button{
+  width: 50px;
+  height: 45px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.bar
+{
+  width: 460px;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 20px;
+  background-color: darkslategrey;
+}
+.todos
+{
+  width: 450px;
+  height: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 20px;
+  background-color: darkslategrey;
+  color: white;
+}
+.value
+{
+  display: flex;
+}
+.todosouter
+{
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  height: 500px;
+  background-image: url(https://pbs.twimg.com/media/EVCE5ZGWsAAFDMC.jpg);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 30px;
+}
+.text
+{
+  text-align: center;
+}
+.added
+{
+  height: auto;
+  max-height: 340px;
+  overflow-y:scroll;
+}
+.showcomp
+{
+  margin-left: 175px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  background-color: darkslategrey;
+  margin-top: 20px;
+}
+
